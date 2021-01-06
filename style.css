@@ -1,0 +1,158 @@
+.nav{
+    overflow: hidden;
+}
+.nav a{
+    float:right;
+    color:black;
+    margin:40px;
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+.work-section h1{
+    text-align: center;
+    margin-top: 3%;
+}
+body{
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.coloring-highlight{
+    color:tomato;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(180deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 8px;
+}
+.half-width{
+    width:30%;
+    float: left;
+    margin-left: 1%;
+    margin-right: 3%;
+    padding:7.5%;
+}
+
+.half-width image{
+    width: 100%;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+    overflow: hidden;
+}
+.work-section{
+    background-color: rgb(224, 231, 240);
+    margin-top: 5%;
+    
+}
+
+.work{
+    width:22%;
+    float: left;
+    margin: 3%;
+    font-size: medium;
+    background-color:white;
+    padding: .33%;
+    border-radius: 15px;
+}
+.work-pic{
+    width:100%;
+}
+.left-margin{
+    margin-left:12%;
+}
+
+.bottom-section{
+    height:400px;
+    background-image: url(images/bottom-background.png);
+    background-position:center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    
+}
+.bottom-section div{
+    
+    color: white;
+    padding: 200px;
+}
+
+#align-left{
+    float:left;
+    margin-left: 25%;
+}
+#align-right{
+    float:right;
+    margin-right: 25%;
+}
+
+footer{
+    font-size: 20px;
+    text-align: center;
+}
+
+footer h3{
+    color:lightslategray;
+}
+
+footer a{
+    font-size: xx-large;
+    text-decoration: none;
+    color: black;
+    
+}
+.font-image{
+    width:1.5%;
+    float:left;
+}
+
+.left-margin-footer{
+    margin-left: 47%;
+    margin-bottom: 2%;
+}
+
+
+.extra-section{
+    background-color: rgb(224, 231, 240);
+    
+}
+
+.half-width label{
+    float: left;
+    width:20%;
+}
+.half-width input{
+    height:20px;
+    float:left;
+    width: 70%;
+    border: 1px solid;
+    border-radius: 4px;
+}
+#message{
+    resize: none;
+    border: 1px solid;
+    border-radius: 4px;
+
+}
+#submit{
+    width:60px;
+    height: 30px;
+    float:right;
+    padding: 10px 15px;
+    margin-right:9%;
+    border:none;
+    background-image: linear-gradient(30deg, lightSalmon, tomato);
+    border-radius: 7%;
+
+}
